@@ -13,10 +13,10 @@ dashedName: use-destructuring-assignment-to-extract-values-from-objects
 Consider the following ES5 code:
 
 ```js
-const user = { name: 'John Doe', age: 34 };
+var user = { name: 'John Doe', age: 34 };
 
-const name = user.name;
-const age = user.age;
+var name = user.name;
+var age = user.age;
 ```
 
 `name` would have a value of the string `John Doe`, and `age` would have the number `34`.
